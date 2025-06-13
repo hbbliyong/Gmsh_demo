@@ -30,7 +30,7 @@ int main() {
     //    out_dim_tags_map);
 
     gmsh::model::occ::synchronize();
-    // gmsh::model::mesh::generate(3);
+     gmsh::model::mesh::generate(2);
     // 可视化（可选）
     gmsh::fltk::run();
     gmsh::finalize();
